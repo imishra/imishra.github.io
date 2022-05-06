@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Indrajeet Kumar Mishra</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/script.js" ></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script> 
+            console.log(1111);
+            $(function(){
+              
+              $("#header").load("pages/header.html"); 
+            });
+        </script> 
+    </head>
+    <body>
+        <div class="header">
+            <span class="name"></span>
+            <span class="links">
+                <a href="https://www.linkedin.com/in/jeetmishra/"><i class="bi-github" style="font-size:24px;color:#f3f3f3"></i></a>
+                <a href="https://github.com/imishra"><i class="bi-linkedin" style="font-size:24px;color:#0a60c3"></i></a>
+                <a href="coursework.html">Coursework</a>
+                <a href="index.html"> Home</a>
+        </div>
+        <div class="main_container">
+            <div class="card bio"> 
+                <div class="card-header">Courses</div>
+                <div class="card-body courses">
+                    <div class="course_name">Convex Optimization (ECE 5734)</div>
+                    <div class="course_name">Optimization Theory for ML (ECE 5984)</div>
+                    <div class="course_name">Natural Language Processing (CS 5984)</div>
+                    <div class="course_name">Info Storage and Ret (CS 5604)</div>
+                    <div class="course_name">Software Support Dist Syst (CS 6704)</div>
+                </div>
+            </div>
+
+            <div class="card background"> 
+                <div class="card-header">Course Projects</div>
+                <div class="card-body">
+                <li><span class="project_title">Room Navigation using Deep RL</span><br>
+                    This project propsed an approach of dummy reward where a re-inforcement learning agent receives a reward heuristic at each step or at a very short interval 
+                    which guides the initial exploration so that the agent start reaching the goal early. This heuristic is designed in a way that it is as  informative as 
+                    possible but should go down as the agent becomes more and more confident about the policy in order to help facilitate enough exploration but should let the 
+                    model learn the final policy without any perturbation to the reward system.</li><br>
+
+                    <li><span class="project_title">Text emotion classification on Spark</span><br>
+                        A project focused on building a text emotion classifier which used the go emotion dataset with 28 different emotions.The spark environment was created 
+                        using docker containers where each spark node is running as a separate container. The data was distributed to different machine which was then used
+                        to create a spark dataframe. Distributed random forest was used as the underlying algorithm to classify the emotions.
+                    </li>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-color: #f3f1fa !important;
+}
+.header{
+    background-color: #11131a !important;
+    color: #eeeeee;
+    padding: 20px;
+    font-size: 20px;
+    height: 70px;
+}
+.header .name{
+    font-size: 28px;
+    margin-left: 0px;
+}
+
+.header .links a{
+    float: right;
+    margin-right: 16px;
+    color: #cf2445;
+}
+a:hover{
+    text-decoration: None;
+}
+
+.main_container{
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 50px;
+    text-align: center;
+}
+.card{
+    text-align: left;
+    vertical-align: top;
+    display: inline-block !important;
+    max-width: 700px;
+    background-color: #eeeefe  !important;
+    /* background-color: #c3c1ca !important */
+}
+.card-header{
+    background-color: #161810  !important;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.card.bio{
+    max-width: 410px;
+}
+.card-body{
+    padding:10px !important;
+}
+.card-body .key{
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    margin-top: 5px;
+}
+.card-body.courses{
+    font-weight: bold;
+    margin-right: 10px;
+    width: 400px !important;
+    padding: 30px !important;
+}
+.card-body .course_name{
+    margin-top: 5px;
+}
+
+.card-body td{
+    vertical-align: top;
+}
+.card-body .value{
+    text-align: left;
+    display: inline;
+}
+.card.background{
+    margin-left: 10%;
+    max-width: 30%;
+    min-width: 200px;
+}
+.project_title{
+    font-weight: bold;
+}

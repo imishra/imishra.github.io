@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Indrajeet Kumar Mishra</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/script.js" ></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script> 
+            console.log(1111);
+            $(function(){
+              
+              $("#header").load("pages/header.html"); 
+            });
+        </script> 
+    </head>
+    <body>
+        <div class="header">
+            <span class="name"></span>
+            <span class="links">
+                <a href="https://github.com/imishra"><i class="bi-github" style="font-size:24px;color:#f3f3f3"></i></a>
+                <a href="https://www.linkedin.com/in/jeetmishra/"><i class="bi-linkedin" style="font-size:24px;color:#0a60c3"></i></a>
+                <a href="coursework.html">Coursework</a>
+                <a href="index.html"> Home</a>
+        </div>
+        <div class="main_container">
+            <div class="card bio"> 
+                <div class="card-header">Personal Information</div>
+                <div class="card-body">
+                <span class="key">Name:</span><span class="value">Indrajeet Kumar Mishra</span>
+                <span class="key">Email:</span><span class="value">imishra@vt.edu</span>
+                <span class="key">Department:</span><span class="value">Computer Science</span>
+                <span class="key">Advisor:</span><span class="value">Dr. Lifu Huang</span>
+                <span class="key">Degree:</span><span class="value">PhD</span>
+                <table><tr><td><span class="key">Research Areas:</span></td><td><div class="value">
+                    <div>Natural Language Processing</div>
+                    <div>Computer Vision</div>
+                    <div>Re-inforcement Learning</div>
+                </div>
+                </td></tr></table>
+                </div>
+            </div>
+
+            <div class="card background"> 
+                <div class="card-header">Research Background</div>
+                <div class="card-body">
+                I am a PhD Student in computer Science at Virginia Tech and have been working in the area Natural Language Processing (NLP) 
+                with Dr. Lifu Huang. Though my primary research is focused in NLP, I have a diverse research background which includes compute vision and Re-inforcement Learning as well. <br><br>
+                &nbsp;&nbsp;&nbsp;Currenty, I am working on multi-model data understanding where I have developed a novel transformer architecture which can learn to reason acorss different modality of information (Table and Text).
+                Our work also proposed a unique pre-training approach for training this transformer model which enforces the cross modality reasoning. 
+                The model does leverage the existing transformer model and proposes some new embedding layers to capture the tabular structure keeping the spatial relation intact. <br><br>
+
+                &nbsp;&nbsp;&nbsp; During my masters, we developed a novel framework that extended the sparse bayesian reinforcement learning to visual environment where an agent selects the best action
+                based on the important visual snapshots from the past experiences. This frame was used to also explain the learning of a deep re-inforcement learning agent.
+                </div>
+            </div>
+
+            <div class="card background"> 
+                <div class="card-header">Research Publications</div>
+                <div class="card-body">
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/8614120/">Deep reinforcement learning monitor for snapshot recording</a></li>
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/8628887/">Visual sparse Bayesian reinforcement learning: a framework for interpreting what an agent has learned</a></li>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
